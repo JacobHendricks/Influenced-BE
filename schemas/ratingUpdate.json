@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.company.com/jobNew.schema.json",
+  "type": "object",
+  "properties": {
+    "review": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "credibilityScore": {
+      "type": "integer",
+      "minimum": 5
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "score",
+    "review"
+  ]
+}
