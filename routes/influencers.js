@@ -171,7 +171,8 @@ router.get("/search", async function (req, res, next) {
         trackTotal: 'true'
       },
       headers: {
-        'X-RapidAPI-Key': '43e65e0513msh92da16deb106f98p103517jsn9636b146c433',
+        // 'X-RapidAPI-Key': '43e65e0513msh92da16deb106f98p103517jsn9636b146c433',
+        'X-RapidAPI-Key': 'fb80549addmsh1eb926062614a35p164ed2jsne51ab353ec49',
         'X-RapidAPI-Host': 'instagram-statistics-api.p.rapidapi.com'
       }
     };
