@@ -1,6 +1,6 @@
 "use strict";
 
-/** Express app for jobly. */
+/** Express app for influenced. */
 
 const express = require("express");
 const cors = require("cors");
